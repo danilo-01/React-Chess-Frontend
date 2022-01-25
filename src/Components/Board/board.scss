@@ -1,6 +1,6 @@
 .board {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
   display: flex;
   flex-direction: column;
 
@@ -41,8 +41,8 @@
             color: #1c1c1c;
             stroke: #fdfbf9;
             stroke-width: 5px;
-            width: 40px;
-            height: 40px;
+            width: 2rem;
+            height: 2rem;
           }
         }
 
@@ -51,8 +51,8 @@
             color: #fdfbf9;
             stroke: #1c1c1c;
             stroke-width: 5px;
-            width: 40px;
-            height: 40px;
+            width: 2rem;
+            height: 2rem;
           }
         }
 
