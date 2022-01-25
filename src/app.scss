@@ -1,16 +1,42 @@
+@import "./global.scss";
+
 .app {
   width: 100%;
   height: 100vh;
-  border: 1px solid red;
-  background-color: pink;
+
+  background-color: $darkBackgroundPrimary;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .content {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: black;
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+
+    .title {
+      position: relative;
+      left: 40px;
+      font-size: 70px;
+      color: $textLight;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        text-shadow: -5px 0px 1px rgba(255, 255, 255, 0.3);
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      h2 {
+        position: inherit;
+        top: -26px;
+        margin: 0;
+      }
+    }
   }
 }
